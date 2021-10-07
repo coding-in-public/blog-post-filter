@@ -17,10 +17,6 @@
       <div class="post-container">
       </div>
       <button class="btn btn--view">View More Posts</button>
-      <!-- <input type="range" max="360" min="0">
-      document.querySelector('[type="range"]').addEventListener('input', e => {
-     document.querySelector(':root').style.setProperty('--hue', `${e.target.value}`);
-     }); -->
     </div>
   </main>
   <script>
@@ -104,7 +100,6 @@
     </div>
     <a class="skeleton btn"></a>
     </article>`;
-      // document.querySelector('.post-container').innerHTML = skeleton.repeat(3);
       document.querySelector('.post-container').innerHTML = [skeleton.repeat(3), skeletonCSS].join('');
     }
     loadSkeleton()

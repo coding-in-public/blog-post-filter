@@ -28,8 +28,6 @@ input, button, input::placeholder {
   --transition: all 160ms cubic-bezier(1, 0.15, 0.86, 1.03);
 }
 
-/* type-scale 1.333 scale */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
 
 body {
