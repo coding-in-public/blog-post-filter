@@ -1,6 +1,7 @@
 let posts = [];
 let filteredPosts = [];
-let maxDisplayLimit = 6;
+const POSTS_TO_SHOW = 6;
+let maxDisplayLimit = POSTS_TO_SHOW;
 const postContainer = document.querySelector('.post-container');
 const search = document.querySelector('[type="search"]');
 
@@ -58,7 +59,7 @@ function filterPosts() {
 }
 
 function viewMorePosts() {
-    maxDisplayLimit += maxDisplayLimit;
+    maxDisplayLimit += POSTS_TO_SHOW;
     filterPosts();
 }
 
