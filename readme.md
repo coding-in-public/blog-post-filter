@@ -24,6 +24,6 @@ HUGE thanks to Shaun for having me on his channel!
 ---------------------------------------
 
 🌐 Connect With Me:
-Website: https://www.codinginpublic.dev
-Blog: https://www.chrispennington.blog
-Twitter: https://twitter.com/cpenned
+- Website: https://www.codinginpublic.dev
+- Blog: https://www.chrispennington.blog
+- Twitter: https://twitter.com/cpenned
